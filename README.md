@@ -12,6 +12,13 @@
 AppSec Dockit is a lightweight, Dockerized, plug-and-play AppSec toolkit designed for web application security testing.
 It bundles a curated collection of essential tools used by penetration testers, bug bounty hunters, and security researchers—all in one containerized environment.
 
+## Installation
+```bash
+git clone https://github.com/dudisamarel/appsec-dockit
+cd appsec-dockit
+docker build . -t pentest-toolkit
+docker run -it pentest-toolkit
+```
 
 ## Installed Tools
 - [x] tmux 
